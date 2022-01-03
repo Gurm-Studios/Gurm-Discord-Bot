@@ -14,7 +14,7 @@ import java.awt.*;
 public class Main extends ListenerAdapter {
 
     public static void main(String[] Args) throws LoginException {
-        JDA jda = JDABuilder.createDefault("").build(); //기본 jda
+        JDA jda = JDABuilder.createDefault("token").build(); //기본 jda
 
         System.out.println("실행" );
 
