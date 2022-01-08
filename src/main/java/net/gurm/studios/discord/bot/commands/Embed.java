@@ -8,7 +8,7 @@ import java.awt.*;
 
 public class Embed extends ListenerAdapter {
     @Override
-    public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
+    public void onMessageReceived(MessageReceivedEvent event) {
         if (event.getMessage().getContentRaw().equals("!무")) {
             EmbedBuilder eb = new EmbedBuilder();
             eb.setTitle("무정부 야생");
@@ -22,7 +22,8 @@ public class Embed extends ListenerAdapter {
             eb.setThumbnail("https://media.discordapp.net/attachments/919594844937154567/926498959155945522/banner.png");
             eb.setFooter("Gurm Studios", "https://cdn.discordapp.com/attachments/872816095789195274/926075491839000646/-1.png");
             eb.setColor(Color.PINK);
-            event.getChannel().sendMessage(eb.build()).queue();
+            event.getChannel().sendMessageEmbeds(eb.build()).queue();
+
         }
         if (event.getMessage().getContentRaw().equals("!구")) {
             EmbedBuilder eb = new EmbedBuilder();
@@ -36,7 +37,7 @@ public class Embed extends ListenerAdapter {
             eb.setThumbnail("https://media.discordapp.net/attachments/919594844937154567/926498959155945522/banner.png");
             eb.setFooter("Gurm Studios", "https://cdn.discordapp.com/attachments/872816095789195274/926075491839000646/-1.png");
             eb.setColor(Color.PINK);
-            event.getChannel().sendMessage(eb.build()).queue();
+            event.getChannel().sendMessageEmbeds(eb.build()).queue();
         }
     }
 }
