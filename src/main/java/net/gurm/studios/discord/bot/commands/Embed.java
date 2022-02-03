@@ -39,5 +39,59 @@ public class Embed extends ListenerAdapter {
             eb.setColor(Color.PINK);
             event.getChannel().sendMessageEmbeds(eb.build()).queue();
         }
+        
+        /*                                                                                Admin Disocrd API                                                                              */
+        /*                                                                                Admin Disocrd API                                                                              */
+        /*                                                                                Admin Discord API                                                                              */
+        if (event.getMessage().getContentRaw().equals("!1")) {
+            EmbedBuilder eb = new EmbedBuilder();
+            /*             eb.addField("", "", false);     */
+            eb.setTitle("Discord API");
+            eb.addField("C", "[Orca](https://github.com/cee-studio/orca)", false);
+
+            eb.addField("C++", "[~~aegis.cpp~~](https://github.com/zeroxs/aegis.cpp) | [D++](https://github.com/brainboxdotcc/DPP) | [Discord++](https://github.com/DiscordPP/discordpp) | [Sleepy Discord](https://github.com/yourWaifu/sleepy-discord)", false);
+
+            eb.addField("C#", "[Discord.Net](https://github.com/discord-net/Discord.Net) | [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus) | [Remora.Discord](https://github.com/Nihlus/Remora.Discord)", false);
+
+            eb.addField("Clojure", "[Discljord](https://github.com/discljord/discljord)", false);
+
+            eb.addField("Crystal", "[Discordcr](https://github.com/shardlab/discordcr)", false);
+
+            eb.addField("Dart", "[Nyxx](https://github.com/nyxx-discord/nyxx)", false);
+
+            eb.addField("Elixir", "[Coxir](https://github.com/satom99/coxir) | [Nostrum](https://github.com/Kraigie/nostrum)", false);
+
+            eb.addField("Go", "[DiscordGo](https://github.com/bwmarrin/discordgo) | [DisGord](https://github.com/andersfylling/disgord)", false);
+
+            eb.addField("Java", "[Catnip](https://github.com/mewna/catnip) | [Discord4J](https://discord4j.com/) | [Javacord](https://github.com/Javacord/Javacord) | [JDA](https://github.com/DV8FromTheWorld/JDA)", false);
+
+            eb.addField("JavaScript", "[Discord.js](https://github.com/satom99/coxir) | [Eris](https://github.com/abalabahaha/eris)", false);
+
+            eb.addField("Julia", "[Discord.jl](https://github.com/Xh4H/Discord.jl)", false);
+
+            eb.addField("Lua", "[Discordia](https://github.com/SinisterRectus/Discordia) | [Lacord](https://github.com/Mehgugs/lacord)", false);
+
+            eb.addField("Nim", "[Dimscord](https://github.com/krisppurg/dimscord) | [Discordnim](https://github.com/Krognol/discordnim)", false);
+
+            eb.addField("PHP", "[DiscordPHP](https://github.com/discord-php/DiscordPHP) | [RestCord](https://www.restcord.com/)", false);
+
+            eb.addField("Python", "[~~Discord.py~~](https://github.com/Rapptz/discord.py) | [~~Disco~~](https://github.com/b1naryth1ef/disco) | [Disnake](https://github.com/DisnakeDev/disnake) | [Hikari](https://github.com/hikari-py/hikari) | [Nextcord](https://github.com/nextcord/nextcord) | [Pycord](https://github.com/Pycord-Development/pycord)", false);
+
+            eb.addField("Ruby", "[Discordrb](https://github.com/shardlab/discordrb)", false);
+
+            eb.addField("Rust", "[Discord-rs](https://github.com/SpaceManiac/discord-rs) | [Serenity](https://github.com/serenity-rs/serenity) | [Twilight](https://github.com/twilight-rs/twilight)", false);
+
+            eb.addField("Scala", "[AckCord](https://github.com/Katrix/AckCord)", false);
+
+            eb.addField("Swift", "[~~Sword~~](https://github.com/Azoy/Sword)", false);
+
+            eb.addField("TypeScript", "[Detritus](https://github.com/detritusjs/client) | [Discordeno](https://github.com/discordeno/discordeno) | [Droff](https://github.com/tim-smart/droff) | [Harmony](https://github.com/harmonyland/harmony)", false);
+
+            /*               이미지 | 그런것(???)                        */
+            eb.setThumbnail("https://discordguide.github.io/assets/API.png");
+            eb.setFooter("Gurm Studios Inc.", "https://avatars.githubusercontent.com/u/96945410?s=200&v=4");
+            eb.setColor(Color.DARK_GRAY);
+            event.getChannel().sendMessageEmbeds(eb.build()).queue();
+        }
     }
 }
