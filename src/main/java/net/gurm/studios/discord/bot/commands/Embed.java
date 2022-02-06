@@ -65,7 +65,9 @@ public class Embed extends ListenerAdapter {
 
             eb.addField("Java", "[Catnip](https://github.com/mewna/catnip) | [Discord4J](https://discord4j.com/) | [Javacord](https://github.com/Javacord/Javacord) | [JDA](https://github.com/DV8FromTheWorld/JDA)", false);
 
-            eb.addField("JavaScript", "[Discord.js](https://github.com/satom99/coxir) | [Eris](https://github.com/abalabahaha/eris)", false);
+            eb.addField("Kotlin", "[Kord](https://github.com/kordlib/kord) | [Diskord](https://github.com/JesseCorbett/Diskord) | [Kordis](https://github.com/Tea-Ayataka/Kordis)", false);
+
+            eb.addField("JavaScript", "[Discord.js](https://github.com/discordjs/discord.js) | [Eris](https://github.com/abalabahaha/eris)", false);
 
             eb.addField("Julia", "[Discord.jl](https://github.com/Xh4H/Discord.jl)", false);
 
@@ -83,7 +85,7 @@ public class Embed extends ListenerAdapter {
 
             eb.addField("Scala", "[AckCord](https://github.com/Katrix/AckCord)", false);
 
-            eb.addField("Swift", "[~~Sword~~](https://github.com/Azoy/Sword)", false);
+            eb.addField("Swift", "[Sword](https://github.com/Azoy/Sword)", false);
 
             eb.addField("TypeScript", "[Detritus](https://github.com/detritusjs/client) | [Discordeno](https://github.com/discordeno/discordeno) | [Droff](https://github.com/tim-smart/droff) | [Harmony](https://github.com/harmonyland/harmony)", false);
 
